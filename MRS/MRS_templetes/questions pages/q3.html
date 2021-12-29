@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEPHILE - Movie Recommendation System</title>
+    <link rel="shortcut icon" href="/img/favicon.png">
+
+
+     <!--------------------------------------------- Bootsrap CDN --------------------------------------------------->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+     <!--------------------------------------------- Jquery CDN --------------------------------------------------->
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+     
+    <!--------------------------------------------- FOnt Awesome CDN --------------------------------------------------->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!---------------------------------------------Custom Styling--------------------------------------------------->
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/questions.css">
+
+    <script type="text/javascript">
+        $(function(){
+            $('#qnavbar').load('/navbar.html');
+        });
+    </script>
+</head>
+<body>
+    <!------------------------------------------------Navbar-------------------------------------------->
+    <div id="qnavbar"></div>
+
+    
+    
+    <div id="q1">
+        <h2>Take a survey to get the recommendation</h2><br>
+    <form action="q4.html">
+       <label for="q1">3. Please choose any genre you're interested in.</label>
+           <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <input type="checkbox" name="genre"> Action <br>
+                <input type="checkbox" name="feeling"> Comedy  <br> 
+                <input type="checkbox" name="feeling"> Drama   <br>
+                <input type="checkbox" name="feeling"> Adventure <br>
+              </div>
+              <div class="col-sm">
+                <input type="checkbox" name="feeling"> Thriller <br>
+                <input type="checkbox" name="genre"> Crime <br>
+                <input type="checkbox" name="genre"> Romance <br>
+                <input type="checkbox" name="genre"> Science Fiction <br>
+              </div>
+              <div class="col-sm">
+                <input type="checkbox" name="genre"> Action <br>
+                <input type="checkbox" name="genre"> Horror <br>
+              </div>
+            </div>
+             </div>
+       <button type="submit" class="btn btn-primary" type="button">Next</button>
+       <a href="q2.html">🠔Back</a>       
+    </form>
+    </div>
+
+    <!------------------------------------------------Footers-------------------------------------------->
+
+	<div id="footer-wrapper">
+			
+		<footer>
+			COPYRIGHT © 2021 CINEPHILE	
+
+		</footer>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+  /* // Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+
+    #main-page{
+        height: 100%;
+        width: 100%;
+        
+        background-image: url(1.jpg);
+         background-color: rgba(0, 0, 0, 0.69);
+        background-size: cover;
+        background-blend-mode:darken;
+        position: absolute;
+        color: white;
+      
+       
+    }
+
+    #main-page .text h2{
+        font-weight:bolder;
+        font-size:20px;
+        
+    }
+
+    #main-page .text p{
+        font-size:20px;
+    }
+
+    button.recommend{
+        width:155px;
+        font-size:13px;
+    }
+ }
+ 
+ 
+ 
+ /* // Small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) and (min-width: 576px){ 
+    #main-page .text h2{
+        font-weight:bolder;
+        font-size:24px;
+        
+    }
+
+    #main-page .text p{
+        font-size: 24px;
+    }
+
+    button.recommend{
+        width:194px;
+        font-size:17px;
+    }
+    
+  }
+ 
+
+
+
+ /* // Medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) and (min-width: 768px){ 
+    #main-page .text h2{
+        font-weight:bolder;
+        font-size:30px;
+        
+    }
+
+    #main-page .text p{
+        font-size: 30px;
+    }
+
+    button.recommend{
+        width:230px;
+        font-size:20px;
+    }
+ }
+ 
+ /* // Large devices (desktops, less than 1200px) */
+ @media (max-width: 1199.98px) { ... }
+ 
+
+
+

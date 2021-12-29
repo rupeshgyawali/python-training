@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:white;
+}
+
+.action {
+  /* border: 3px solid black; */
+  height: max-content;
+}
+.row {
+  /* border: 3px solid blueviolet; */
+  height: 300px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.grid {
+  /* border: 3px solid red; */
+}
+
+.grid img {
+  width: 160px;
+  height: 220px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.grid img:hover {
+  width: 170px;
+  height: 230px;
+  opacity: 40%;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.link {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.links {
+  width: 50%;
+  height: 40px;
+  /* border: 2px solid white; */
+  margin-left: 25%;
+  text-align: center;
+}
+
+.btn {
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.rating {
+  visibility: hidden;
+  width: 170px;
+  height: 40px;
+  background: white;
+  border-radius: 5px;
+  margin-left: 6px;
+  margin-top: -80px;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.text {
+  padding: 8px;
+  color: blue;
+  opacity: 100%;
+  text-align: center;
+}
+.grid:hover .rating {
+  visibility: visible;
+  /* margin-left: 6px;
+  margin-top: -0px; */
+  overflow: hidden;
+}
